@@ -1,3 +1,5 @@
-# Kristoffer streng site
+# Kristoffer Streng site #
 
-Currently just moved from old dreamhost to here, does not use any fancy jekyll features yet
+Nothing really fancy here just a very quickly made web page which can be seen on [kristofferstreng.fi](http://kristofferstreng.fi).
+
+Migrated from plain html to jekyll so doesn't really use any jekyll features, yet.
