@@ -1,21 +1,33 @@
 body {
-  text-align: center;
+  /*text-align: center;*/
   padding-top: 5%;
   background: #EFF3CF;
-  font-family: sans-serif;
+  background: #f2f5f7;
+  color: #263238;
+  font-family: 'Georgia', serif;
+  font-family: 'Raleway', sans-serif;
 }
 h1 {
   font-family: 'Alex Brush', cursive;
-  font-size: 112px;
-  line-height: 110px;
+  font-size: 120px;
+  line-height: 120px;
   color: #724A2F;
+  color: #263238;
   text-shadow: 1px 1px 1px #000;
+  text-align: center;
+}
+h2,h3,h4 {
+  font-family: 'Playfair Display','Sorts Mill Goudy', serif;
+  font-weight: 400;
+
 }
 h2 {
-  font-family: 'Sorts Mill Goudy', serif;
-  font-weight: 400;
-  font-style: italic;
   font-size: 3em;
+  margin-top: 1.5em;
+}
+h3 {
+  font-weight: 400;
+  font-size: 2em;
   margin-top: 1.5em;
 }
 ul {
@@ -26,11 +38,16 @@ li {
   text-align: left;
 }
 ol li {
-  margin-left: 30px;
+  /*margin-left: 30px;*/
+}
+.creators {
+  font-size: 80%;
+  margin-top: -5px;
+  margin-bottom: 3px;
 }
 p {
-  width: 90%;
-  margin: 1em auto;
+  /*width: 90%;
+  margin: 1em auto;*/
 }
 hr {
   border: 1px solid #724a2f;
@@ -65,4 +82,21 @@ img {
 }
 .box {
   width: 100%;
+}
+
+a {
+  color: #607d8b;
+}
+.nav-pills .nav-link.active {
+  background-color: #607d8b;
+}
+.alert {
+  text-align: center;
+}
+
+@media only screen and (max-width: 540px) {
+  h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
 }
