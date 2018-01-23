@@ -1,0 +1,25 @@
+<div class="row align-items-center">
+  <div class="col">
+    <h1>Kristoffer Streng</h1>
+    <nav class="nav flex-row justify-content-center nav-pills nav-fill mb-5 mt-3">
+      {% if page.class == 'landing' %}
+      <a class="nav-link active" href="/">CD-skivor/CD-levyt</a>
+      {% else %}
+      <a class="nav-link" href="/">CD-skivor/CD-levyt</a>
+      {% endif %}
+      {% if page.class == 'about' %}
+      <a class="nav-link active" href="/about.html">Biografi/Biografia</a>
+      {% else %}
+      <a class="nav-link" href="/about.html">Biografi/Biografia</a>
+      {% endif %}
+      {% if page.class == 'contact' %}
+      <a class="nav-link active" href="/contact.html">Kontakt/Yhteys</a>
+      {% else %}
+      <a class="nav-link" href="/contact.html">Kontakt/Yhteys</a>
+      {% endif %}
+    </nav>
+  </div>
+  <div class="col-2 d-none d-sm-block">
+    <img src="./img/streng_transparant.png" class="mb-2" style="width: 100%; border: none;box-shadow: none;">
+  </div>
+</div>

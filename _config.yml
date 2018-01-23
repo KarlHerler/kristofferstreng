@@ -1,0 +1,5 @@
+#exclude: ['public', 'disabled', 'README.md', '.git']
+#destination: 'public'
+#sass:
+#    sass_dir: _sass
+#    style: :compressed
